@@ -4,46 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Daycare</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body { padding-top: 56px; }
+        footer { background: #264653; color: white; padding: 20px 0; }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to Our Daycare</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#programs">Programs</a></li>
-                <li><a href="#resources">Resources</a></li>
-                <li><a href="#contact">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <section id="mission">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="#">Our Daycare</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="#programs">Programs</a></li>
+            <li class="nav-item"><a class="nav-link" href="#resources">Resources</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+        </ul>
+    </div>
+</nav>
+
+<header class="bg-primary text-white text-center">
+    <div class="container">
+        <h1 class="display-4">Welcome to Our Daycare</h1>
+        <p class="lead">Building a foundation for lifelong learning.</p>
+    </div>
+</header>
+
+<section id="mission" class="text-center my-5">
+    <div class="container">
         <h2>Our Mission</h2>
         <p>Our mission is to provide high-quality education and childcare in a safe, respectful, and inclusive environment that builds a foundation for lifelong learning.</p>
-        <a href="#contact" class="cta-button">Enroll Now</a>
-    </section>
+        <a href="#contact" class="btn btn-success">Enroll Now</a>
+    </div>
+</section>
 
-    <section id="about">
+<section id="about" class="my-5">
+    <div class="container">
         <h2>About Us</h2>
         <p>Learn more about our philosophy and meet our dedicated team.</p>
-    </section>
+    </div>
+</section>
 
-    <section id="programs">
+<section id="programs" class="my-5">
+    <div class="container">
         <h2>Programs</h2>
         <p>Discover our various programs tailored for different age groups.</p>
-    </section>
+    </div>
+</section>
 
-    <section id="resources">
+<section id="resources" class="my-5">
+    <div class="container">
         <h2>Parent Resources</h2>
         <p>Access helpful articles and FAQs.</p>
-    </section>
+    </div>
+</section>
 
-    <footer>
+<footer>
+    <div class="container text-center">
         <p>&copy; 2024 Our Daycare. All rights reserved.</p>
         <p>Contact: info@ourdaycare.com</p>
-    </footer>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
-
